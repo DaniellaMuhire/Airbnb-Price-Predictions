@@ -9,3 +9,10 @@ In this first part, we clean, organize and perfom exploratory data analysisnon o
 ### Machine Learning Model Mockup
 Since price is a continuous variable, we will use linear regression for our machine learning model. We will use Scikit-learn library, a python machine learning library.The target variable is Price, meaning that the goal of the linear regression model is to predict a price based on some of available features. Database we will use is AWS. 
 
+Individual task:
+
+David: Gathered datasets and data cleaning;
+Tope: City Zip Code Clustering;
+Lynette: Data Cleaning;
+Xin Lan: Data Cleaning;
+Daniella: Created repository and ReadMe
