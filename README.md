@@ -3,7 +3,7 @@ Capstone project, presented by Daniella Muhire, Tope Adeolatunji, Orange Xin Lan
 ​
 ## Overview of the Project
 ​
-There has been conversation on social media and in the news about AirBNB as of late.  When AirBNB launched it was toted as a cheaper alternative to traditional accommodations.  Over the years, the price has increased and is increasingly on par or exceeding hotel rates. New York City is one on the most visited cities in North America and has a large number of rentals. With our analysis, we aim to answer the question:  
+There has been conversation on social media and in the news about AirBNB as of late.  When AirBNB launched it was toted as a cheaper alternative to traditional Lodging and leisure stays (i.e. hotels accommodations).  Over the years, the price has increased and is increasingly on par or exceeding hotel rates. New York City is one on the most visited cities in North America and has a large number of rentals. With our analysis, we aim to answer the question:  
 -What will AirBNB rates look like in a year? 2 years?
 ​
 ## Communications Protocol  
