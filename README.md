@@ -25,7 +25,7 @@ In this first part, we clean, organize and perfom exploratory data analysis on o
 ​
 ## Database  
 Using RDS service on AWS, we've created our frames and ready for input.  
-![Getting Started](./database.png)
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/192123941-6328b238-c0cd-4d68-b890-54653c29d35b.png">
 ​
 ## Machine Learning Model Mockup
 Since price is a continuous variable, we will use linear regression for our machine learning model. We will use Scikit-learn library, a python machine learning library.The target variable is Price, meaning that the goal of the linear regression model is to predict a price based on some of available features. Database we will use is RDS service in AWS.
