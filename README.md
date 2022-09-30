@@ -37,3 +37,8 @@ Tope: City Zip Code Clustering;
 Lynette: Data Cleaning of listings data; 
 Orange Xin Lan: Data Cleaning of listings data; 
 Daniella: Created repository and ReadMe
+
+## Presentation
+Deck
+https://docs.google.com/presentation/d/1R67jjSp2edGHn62J34kEa3NTQhn0paBVsokQ9WaNDl0/edit#slide=id.g15ba5c8aa36_0_20
+
