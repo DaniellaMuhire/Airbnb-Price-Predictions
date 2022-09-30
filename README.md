@@ -39,6 +39,8 @@ Orange Xin Lan: Data Cleaning of listings data;
 Daniella: Created repository and ReadMe
 
 ## Presentation
+
 Deck
-https://docs.google.com/presentation/d/1R67jjSp2edGHn62J34kEa3NTQhn0paBVsokQ9WaNDl0/edit#slide=id.g15ba5c8aa36_0_20
+
+https://docs.google.com/presentation/d/1R67jjSp2edGHn62J34kEa3NTQhn0paBVsokQ9WaNDl0/edit?usp=sharing_eil_m&invite=CPDLx4oH&ts=6332253a
 
