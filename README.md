@@ -33,15 +33,16 @@ Since price is a continuous variable, we will use linear regression for our mach
 ## Machine Learning
 The purpose of this analysis is to utilize Machine Learning statistical algorithms to make predictions based on list prices for Airbnb for New York metropolitan areas. We focused on supervised learning using a free dataset from insiderairbnb.com, which contains datasets of over 39,000 rows and 22 fields for Airbnb property listings in NY metropolitan areas as of September 7th, 2022.
 
-To complete this analysis, we used different Machine Learning techniques, such as linear regression model to train and evaluate the data with four features. These features include zip, bedrooms, minimum_nights and review_score. 
+To complete this analysis, we used Linear Regression Machine Learning model to train and evaluate the data with numerical features in the dataset. 
 
-We chose these features because they are all numerical measures, and allow for more meaningful predictions and improve the accuracy score of price for any given listed airbnb property. 
+First of all, we find which feature has a relationship with the target, Price. After analyzing different features from the dataset as indepedent variables and Price as the depedent variables, we realised that only Minimum_nights, Number of Reviews and review scores has a relationship with the target. 
+We also found that the relationship is weak.
 
-Using the linear modeling approach, we hypotised that certain zips, where heatmaps are concentrated for listed properties will be a good predictor of price because of population density and proximity to city centres such as train stations, shopping centres and restaurants. Example of this is the Upper Eastside and lower Manhattan. Another feature is the review_score, which is positively correlated to list price: the higher the review score, the higher the price. Bedrooms and minimum_nights are also a strong determinant of list price since the more bedrooms and number of nights of stay, the higher the price. We are confident, given the dataset, that the features (dependent variables) above are strong determinant of price (independent variable). 
+<img width="983" alt="Minimum_nights" src="https://user-images.githubusercontent.com/77806210/194414319-ecdbd7c0-60f7-4484-b03e-99e6a2bed6ff.png">
+<img width="1196" alt="Number of Reviews" src="https://user-images.githubusercontent.com/77806210/194414356-7a399f42-59e4-4b5a-b728-3a88f2ce994a.png">
+<img width="1180" alt="Review Scores" src="https://user-images.githubusercontent.com/77806210/194414433-ef17bdf9-597a-4b98-977e-e5995bda2061.png">
 
-See sample price prediction below
-
-<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/194187352-09694b49-7548-4def-b003-64447e54eb8c.png">
+For the model, we used minimum_nights to predict the price. We fit and trained the model on that feature. We also found the coefficient and intercept of the model. 
 
 ## Individual task:
 ​
