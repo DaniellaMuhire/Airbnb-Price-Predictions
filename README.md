@@ -41,9 +41,8 @@ Using the linear modeling approach, we hypotised that certain zips, where heatma
 
 See sample price prediction below
 
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/194187352-09694b49-7548-4def-b003-64447e54eb8c.png">
 
-
-I employed various Machine Learning algorithms to resample the data.
 ## Individual task:
 ​
 David: Gathered datasets and data cleaning of calendar data, database set up; 
