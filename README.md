@@ -1,31 +1,32 @@
 # Airbnb Price Predictions
-Capstone project, presented by Daniella Muhire, Tope Adeolatunji, Orange Xin Lan, Lynette Leiyan Chen  
+Capstone project, presented by Daniella Muhire, Tope Adeolatunji, Orange Xin Lan, Lynette Leiyan Chen and David Lynds  
 ​
 ## Overview of the Project
 ​
-There has been conversation on social media and in the news about AirBNB as of late.  When AirBNB launched it was toted as a cheaper alternative to traditional Lodging and leisure stays (i.e. hotels accommodations).  Over the years, the price has increased and is increasingly on par or exceeding hotel rates. New York City is one on the most visited cities in North America and has a large number of rentals. With our analysis, we aim to answer the question:  
--What will AirBNB rates look like in a year? 2 years?
-​
-## Communications Protocol  
-Our group maintains communication through Slack, Zoom, Class Breakout rooms, and shares our work and ideas via Github through our shared repository.
+When AirBNB launched it was toted as a cheaper alternative to traditional lodging and leisure stays (i.e. hotels accommodations).  Over the years, the price has increased and is increasingly on par or exceeding hotel rates. New York City is one on the most visited cities in North America and has a large number of rentals. With our analysis, we aim to answer the question:
+What is an appropriate amount to charge or pay for a rental, based on amenities and location?  Our model will predict this, based on recent market conditions.  
+
+
 ​
 ## Technology Stack  
 To complete this analysis, we are using the following technologies:  
-Python (pandas, numpy, geopandas, sklearn among others), Jupyter Notebook, RDS in AWS, and presenting our findings with JavaScript, HTML, CSS, Flask.
+Python (pandas, numpy, geopandas, sklearn among others), Jupyter Notebook, RDS in AWS, and presenting our findings with Tableau.
 ​
 ​
-In this project, we work with Airbnb listing data for the city of New York. We will take into considerations informations like property type, room type, location, ratings and seasonality to predict the price. 
+In this project, we work with Airbnb listing data for the city of New York. We will take into considerations informations like property type, room type, location, ratings and amenities to predict the price. 
 ​
 Data is current (Sept 7, 2022), and obtained from insideairbnb.com. http://insideairbnb.com/get-the-data/
-The two datasets we are working with are:
+The dataset we are working with is:
 listings.csv.gz
-calendar.csv.gz
+Zip code data was retrieved from https://simplemaps.com/data/us-zips 
+
 ​
-In this first part, we clean, organize and perfom exploratory data analysis on our datasets so that they are ready for analysis.
+In the first segment, we clean, organize and perfom exploratory data analysis on our datasets so that they are ready for further in-depth analysis.
 ​
 ## Database  
-Using RDS service on AWS, we've created our frames and ready for input.  
-<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/192123941-6328b238-c0cd-4d68-b890-54653c29d35b.png">
+Using RDS service on AWS, we've created our tables and they are ready for input.  From Jupyter Notebook we inserted our data in to the tables using SQLAlchemy.
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/192123941-6328b238-c0cd-4d68-b890-54653c29d35b.png">  
+
 ​
 ## Machine Learning Model Mockup
 Since price is a continuous variable, we will use linear regression for our machine learning model. We will use Scikit-learn library, a python machine learning library.The target variable is Price, meaning that the goal of the linear regression model is to predict a price based on some of available features. Database we will use is RDS service in AWS.
@@ -45,11 +46,11 @@ See sample price prediction below
 
 ## Individual task:
 ​
-David: Gathered datasets and data cleaning of calendar data, database set up; 
-Tope: City Zip Code Clustering; 
-Lynette: Data Cleaning of listings data; 
-Orange Xin Lan: Data Cleaning of listings data; 
-Daniella: Created repository and ReadMe
+David: Gathered datasets and data cleaning, database set up presentation prep; 
+Tope: City Zip Code Clustering, cleaning, machine learning, README.md, presentation prep; 
+Lynette: Data Cleaning of listings data, visualizations/dashboards. presentation prep; 
+Orange Xin Lan: Data Cleaning of listings data, visualizations/dashboards. presentation prep;
+Daniella: Created repository and ReadMe, machine learning, presentation prep.
 
 ## Presentation
 
