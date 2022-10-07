@@ -33,7 +33,7 @@ Since price is a continuous variable, we will use linear regression for our mach
 ## Machine Learning
 The purpose of this analysis is to utilize Machine Learning statistical algorithms to make predictions based on list prices for Airbnb for New York metropolitan areas. We focused on supervised learning using a free dataset from insiderairbnb.com, which contains datasets of over 39,000 rows and 22 fields for Airbnb property listings in NY metropolitan areas as of September 7th, 2022.
 
-To complete this analysis, we used different Machine Learning techniques, such as linear regression model to train and evaluate the data with four features. These features include zip, bedrooms, minimum_nights and review_score. 
+To complete this analysis, we used different Machine Learning techniques, such as linear regression model to train and evaluate the data with four features. These features include zip, bedrooms, minimum_nights and review_score.
 
 We chose these features because they are all numerical measures, and allow for more meaningful predictions and improve the accuracy score of price for any given listed airbnb property. 
 
