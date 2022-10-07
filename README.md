@@ -49,7 +49,7 @@ David: Gathered datasets and data cleaning of calendar data, database set up;
 Tope: City Zip Code Clustering; 
 Lynette: Data Cleaning of listings data; 
 Orange Xin Lan: Data Cleaning of listings data; 
-Daniella: Created repository and ReadMe and Machine 
+Daniella: Created repository and ReadMe and Machine Learning
 
 ## Presentation
 
