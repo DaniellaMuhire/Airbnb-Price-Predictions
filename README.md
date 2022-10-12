@@ -61,5 +61,4 @@ Tableau Story
 
 https://public.tableau.com/app/profile/lynette.chen/viz/AirbnbStory_16654366921700/AirbnbStory
 
-https://public.tableau.com/views/Book1_16655082370900/Story1?:language=zh-CN&publish=yes&:display_count=n&:origin=viz_share_link
 
