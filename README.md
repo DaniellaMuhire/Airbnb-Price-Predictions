@@ -14,7 +14,7 @@ To complete this analysis, we are using the following technologies:
 Python (pandas, numpy, geopandas, sklearn among others), Jupyter Notebook, RDS in AWS, and presenting our findings with JavaScript, HTML, CSS, Flask.
 ​
 ​
-In this project, we work with Airbnb listing data for the city of New York. We will take into considerations informations like property type, room type, location, ratings and seasonality to predict the price. 
+In this project, we work with Airbnb listing data for the city of New York. 
 ​
 Data is current (Sept 7, 2022), and obtained from insideairbnb.com. http://insideairbnb.com/get-the-data/
 The two datasets we are working with are:
@@ -28,20 +28,25 @@ Using RDS service on AWS, we've created our frames and ready for input.
 <img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/192123941-6328b238-c0cd-4d68-b890-54653c29d35b.png">
 ​
 ## Machine Learning Model Mockup
-Since price is a continuous variable, we will use linear regression for our machine learning model. We will use Scikit-learn library, a python machine learning library.The target variable is Price, meaning that the goal of the linear regression model is to predict a price based on some of available features. Database we will use is RDS service in AWS.
+Since price is a continuous variable, we will use Supervised Learning regression model's algorithms for our machine learning models. We will use Scikit-learn library, a python machine learning library.The target variable is Price, meaning that the goal of the models will be to predict a price based on some of available features. Database we will use is RDS service in AWS.
 ​
 ## Machine Learning
 The purpose of this analysis is to utilize Machine Learning statistical algorithms to make predictions based on list prices for Airbnb for New York metropolitan areas. We focused on supervised learning using a free dataset from insiderairbnb.com, which contains datasets of over 39,000 rows and 22 fields for Airbnb property listings in NY metropolitan areas as of September 7th, 2022.
 
-To complete this analysis, we used different Machine Learning techniques, such as linear regression model to train and evaluate the data with four features. These features include zip, bedrooms, minimum_nights and review_score.
+To complete this analysis, we used three different regression model's algorithms, such as linear regression model, random forest regressor and Decision tree Regressor. With these algorithms, we analyze the data and attempt to identify patterns. Based on these patterns, the model makes predictions on new data.
 
-We chose these features because they are all numerical measures, and allow for more meaningful predictions and improve the accuracy score of price for any given listed airbnb property. 
+We assess the performance of each regression model with the standard metric called Root Mean Squared Error or RMSE.
 
-Using the linear modeling approach, we hypotised that certain zips, where heatmaps are concentrated for listed properties will be a good predictor of price because of population density and proximity to city centres such as train stations, shopping centres and restaurants. Example of this is the Upper Eastside and lower Manhattan. Another feature is the review_score, which is positively correlated to list price: the higher the review score, the higher the price. Bedrooms and minimum_nights are also a strong determinant of list price since the more bedrooms and number of nights of stay, the higher the price. We are confident, given the dataset, that the features (dependent variables) above are strong determinant of price (independent variable). 
+The linear regression model has a RMSE of 0,238.
+<img width="1213" alt="Linear Regression Model" src="https://user-images.githubusercontent.com/77806210/195475223-42d8b539-7de7-43cc-b21c-ee81dbd101df.png">
 
-See sample price prediction below
+The Random Forest Regressor model has a RMSE of 0,228.
+<img width="1292" alt="Random Forest Regressor Model" src="https://user-images.githubusercontent.com/77806210/195475250-8a8fee5f-09e9-449b-9079-25921245e1b4.png">
 
-<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/194187352-09694b49-7548-4def-b003-64447e54eb8c.png">
+The Decision Tree Regressor model has a RMSE of 0,314.
+<img width="1282" alt="Decision Tree Regressor Model" src="https://user-images.githubusercontent.com/77806210/195475281-57512000-172c-40c6-b00d-a76b5fea0dee.png">
+
+We know that the lower the RMSE, the better the model. We can therefore conclude that the Random Forest Regressor model is a better fit to predict the price because of its low RMSE.
 
 ## Individual task:
 ​
@@ -49,7 +54,7 @@ David: Gathered datasets and data cleaning of calendar data, database set up;
 Tope: City Zip Code Clustering; 
 Lynette: Data Cleaning of listings data; 
 Orange Xin Lan: Data Cleaning of listings data; 
-Daniella: Created repository and ReadMe and Machine Learning
+Daniella: Created repository, contributed to ReadMe and  did Machine Learning file. 
 
 ## Presentation
 
