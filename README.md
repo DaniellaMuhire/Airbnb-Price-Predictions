@@ -1,5 +1,5 @@
 # Airbnb Price Predictions
-Capstone project, presented by Daniella Muhire, Tope Adeolatunji, Orange Xin Lan, Lynette Leiyan Chen  
+Capstone project, presented by Daniella Muhire, Tope Adeolatunji, Orange Xin Lan, Lynette Leiyan Chen, David Lynds.
 ​
 ## Overview of the Project
 ​
