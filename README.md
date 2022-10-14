@@ -38,13 +38,12 @@ To complete this analysis, we used three different regression model's algorithms
 We assess the performance of each regression model with the standard metric called Root Mean Squared Error or RMSE.
 
 The linear regression model has a RMSE of 0,238.
-<img width="1213" alt="Linear Regression Model" src="https://user-images.githubusercontent.com/77806210/195475223-42d8b539-7de7-43cc-b21c-ee81dbd101df.png">
+
 
 The Random Forest Regressor model has a RMSE of 0,228.
-<img width="1292" alt="Random Forest Regressor Model" src="https://user-images.githubusercontent.com/77806210/195475250-8a8fee5f-09e9-449b-9079-25921245e1b4.png">
+
 
 The Decision Tree Regressor model has a RMSE of 0,314.
-<img width="1282" alt="Decision Tree Regressor Model" src="https://user-images.githubusercontent.com/77806210/195475281-57512000-172c-40c6-b00d-a76b5fea0dee.png">
 
 We know that the lower the RMSE, the better the model. We can therefore conclude that the Random Forest Regressor model is a better fit to predict the price because of its low RMSE.
 
