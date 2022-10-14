@@ -40,10 +40,10 @@ We assess the performance of each regression model with the standard metric call
 The linear regression model has a RMSE of 0,238.
 <img width="1359" alt="Linear Regression Model" src="https://user-images.githubusercontent.com/77806210/195737700-e597fc48-3061-46c1-b096-edfa28c63f64.png">
 
-The Random Forest Regressor model has a RMSE of 0,228.
+The Random Forest Regressor model has a RMSE of 0,226.
 <img width="1299" alt="Random Forest Regressor" src="https://user-images.githubusercontent.com/77806210/195737674-32e5ea00-18c1-41de-8b99-62dbb1ce3926.png">
 
-The Decision Tree Regressor model has a RMSE of 0,314.
+The Decision Tree Regressor model has a RMSE of 0,304.
 <img width="1230" alt="Decision Tree Regressor" src="https://user-images.githubusercontent.com/77806210/195737646-4828e330-3370-42b6-ad10-c833135bed34.png">
 
 
